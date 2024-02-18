@@ -1,0 +1,80 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;     
+}
+
+body{
+    background-color: rgb(171, 176, 191);
+}
+
+
+.end-text {
+    flex-direction:column;
+    align-items: center;
+    position: absolute;
+    top: 140%;
+    left: 50vw;
+    text-align: center;
+
+}
+
+.text-container {
+    height: 300vh;
+    width: 100vw;
+}
+
+.end-text div {
+    margin: 1.5rem;
+}
+
+.ross-container {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    text-align: center;
+    position: absolute;
+    
+    height: 116vh;
+    z-index: 0;
+}
+
+.rachel-container {
+    z-index: 1;
+    position: absolute;
+    top: 80%;
+    width: 90vw;
+}
+
+.ross-text {
+    /* overflow: hidden;
+    width: 0;
+    animation: typing;
+    animation-duration: 3.5s;
+    animation-timing-function: steps(60, end);
+    animation-fill-mode:forwards; */
+    font-family: retail-variable, sans-serif;
+    font-style: normal;
+    font-variation-settings: "ital" 0, "opsz" 20, "wght" 500;
+    font-size: 1.2rem;
+    color: rgb(47, 64, 88);
+}
+
+.rachel-text {
+    font-family: "parisplus-clair", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    color: rgb(39, 5, 50);
+}
+
+.text-container {
+    margin: 2rem;
+}
+
+@keyframes typing {
+    from { width: 0}
+    to { width: 100%}
+}
